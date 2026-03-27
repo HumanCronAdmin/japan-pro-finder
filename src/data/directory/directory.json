@@ -3,7 +3,7 @@
     "id": "st-lukes-tokyo",
     "title": "St. Luke's International Hospital",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["doctor", "tokyo"],
     "description": "Major international hospital in central Tokyo with full English-speaking staff. General medicine, pediatrics, OB/GYN, and emergency services.",
     "link": "https://hospital.luke.ac.jp/eng/"
@@ -28,7 +28,7 @@
     "id": "retirejapan",
     "title": "RetireJapan Financial Advisory",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["financial-advisor", "tokyo"],
     "description": "Independent financial advice for foreign residents in Japan. Specializes in NISA, iDeCo, retirement planning, and international investments.",
     "link": "https://www.retirejapan.com"
@@ -37,7 +37,7 @@
     "id": "plaza-homes",
     "title": "Plaza Homes",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["real-estate", "tokyo"],
     "description": "Japan's largest English-language real estate agency. Renting, buying, and selling properties in Tokyo for foreign residents.",
     "link": "https://www.realestate.co.jp/en/"
@@ -46,7 +46,7 @@
     "id": "ohara-furukawa-osaka",
     "title": "Ohara & Furukawa",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["divorce", "lawyer", "osaka"],
     "description": "Osaka-based firm with deep expertise in international divorce, child custody, and Hague Convention cases. Bilingual staff (English/Japanese). One of the few firms with published Hague Convention expertise. Founded 1979.",
     "link": "https://oharalaw-japan.com/practice-areas/family-law/"
@@ -55,7 +55,7 @@
     "id": "setagaya-intl-law",
     "title": "Setagaya International Law Office",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["divorce", "lawyer", "tokyo"],
     "description": "English-speaking law firm on US, Canadian, and UK Embassy referral lists. Specializes in international divorce, custody & visitation disputes, and Hague Convention cases.",
     "link": "https://setakoku-law.com/"
@@ -96,7 +96,7 @@
     "id": "acroseed-immigration",
     "title": "ACROSEED Immigration Lawyer's Office",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["lawyer", "immigration", "tokyo"],
     "description": "Leading immigration firm since 1986 with 99.9% approval rate. Handles all visa types, permanent residence, naturalization, and business setup. English and Chinese support. Free consultations available.",
     "link": "https://english.visajapan.jp/"
@@ -129,7 +129,7 @@
     "id": "atsumi-sakai",
     "title": "Atsumi & Sakai (APLaw Japan)",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["lawyer", "corporate", "tokyo"],
     "description": "Full-service Tokyo law firm with 200+ lawyers including 23 foreign attorneys. Specializes in corporate law, labor/employment, M&A, and cross-border transactions. Most lawyers conduct business in English.",
     "link": "https://www.aplawjapan.com/en/about-us"
@@ -170,7 +170,7 @@
     "id": "tmsc",
     "title": "Tokyo Medical and Surgical Clinic",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["doctor", "tokyo"],
     "description": "Established in 1951 with European and US-trained doctors. Full general practice, internal medicine, dermatology, pediatrics, psychotherapy, and minor surgery. Language support in English, Spanish, German, and French.",
     "link": "https://tmsc.jp/"
@@ -195,7 +195,7 @@
     "id": "raffles-medical-osaka",
     "title": "Raffles Medical Osaka",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["doctor", "osaka"],
     "description": "Part of Singapore's largest private healthcare group. Family medicine, travel medicine, dermatology, health screenings. English, Chinese, and Japanese-speaking doctors and staff. Located in Herbis Osaka, Umeda.",
     "link": "https://www.rafflesmedicalgroup.com/clinic/raffles-medical-osaka/"
@@ -204,7 +204,7 @@
     "id": "argentum-wealth",
     "title": "Argentum Wealth Management",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["financial-advisor", "tokyo"],
     "description": "Japan's largest licensed independent financial advisory firm for expats. Financial planning, investments, retirement, insurance, and estate planning. Licensed by Japanese Ministry of Finance. English, Japanese, Chinese, and Spanish support.",
     "link": "https://argentumwealth.com/"
@@ -245,7 +245,7 @@
     "id": "ken-corporation",
     "title": "Ken Corporation",
     "image": "",
-    "featured": true,
+    "featured": false,
     "tags": ["real-estate", "tokyo"],
     "description": "Leading Tokyo real estate agency with 50+ years experience and 7,000+ properties. Specializes in premium expat housing and corporate relocation. 30 fluent English-speaking agents. Trusted by embassies and global companies.",
     "link": "https://www.kencorp.com/"
