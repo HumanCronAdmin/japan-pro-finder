@@ -10,7 +10,8 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: "https://humancronadmin.github.io",
-  base: "/japan-pro-finder",
+  base: "/japan-pro-finder/",
+  trailingSlash: "always",
   integrations: [
     vue(),
     mdx(),

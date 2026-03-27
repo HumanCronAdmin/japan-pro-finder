@@ -11,9 +11,10 @@ const myItem = {
   ...item.data,
 };
 
+const base = import.meta.env.BASE_URL;
 const href = config.directoryData?.source?.linksOutbound
   ? myItem.link
-  : `/${myItem.id}`;
+  : `${base}${myItem.id}`;
 
 const type = config.directoryUI.grid.type;
 ---

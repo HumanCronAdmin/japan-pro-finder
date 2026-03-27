@@ -96,7 +96,7 @@ colorModeSelector = true
 
 [[header.navbar.links]]
 name = "About"
-href = "/blog"
+href = "/japan-pro-finder/blog"
 
 [header.actionButton]
 text = "Submit a Professional"

@@ -3,7 +3,7 @@ import { Icon } from "astro-icon/components";
 import config from "@util/themeConfig";
 ---
 
-<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+<a href={import.meta.env.BASE_URL} class="flex items-center space-x-3 rtl:space-x-reverse">
   {
     config.general.logo ? (
       <img
