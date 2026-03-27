@@ -1,47 +1,5 @@
 [
   {
-    "id": "hilton-law-tokyo",
-    "title": "Hilton Law Firm",
-    "image": "",
-    "featured": true,
-    "tags": ["lawyer", "tokyo"],
-    "description": "English-speaking law firm specializing in immigration, divorce, and labor disputes for foreign residents in Tokyo. Over 15 years of experience with expat cases.",
-    "link": "https://www.hiltonlawfirm.com"
-  },
-  {
-    "id": "gaikokugo-law-osaka",
-    "title": "Foreigners Legal Support Osaka",
-    "image": "",
-    "featured": true,
-    "tags": ["lawyer", "osaka"],
-    "description": "Multilingual legal services in Osaka covering divorce, visa issues, and employment disputes. Consultations available in English, Chinese, and Korean.",
-    "link": "https://www.flso.jp"
-  },
-  {
-    "id": "tokyo-legal-support",
-    "title": "Tokyo Legal Support Center",
-    "image": "",
-    "tags": ["lawyer", "tokyo"],
-    "description": "Free legal consultations for foreign nationals in Tokyo. Covers civil disputes, family law, and labor issues with interpreter support.",
-    "link": "https://www.houterasu.or.jp/en/"
-  },
-  {
-    "id": "immigration-lawyer-tokyo",
-    "title": "Shibuya Immigration Lawyers",
-    "image": "",
-    "tags": ["lawyer", "tokyo"],
-    "description": "Specialized in visa applications, permanent residency, naturalization, and immigration appeals. All consultations in English.",
-    "link": "https://www.visa-japan.info"
-  },
-  {
-    "id": "labor-law-kansai",
-    "title": "Kansai Labor Law Office",
-    "image": "",
-    "tags": ["lawyer", "osaka"],
-    "description": "Handles unpaid wages, wrongful termination, and workplace harassment cases for foreign workers in the Kansai region.",
-    "link": "https://www.kansai-labor.jp"
-  },
-  {
     "id": "st-lukes-tokyo",
     "title": "St. Luke's International Hospital",
     "image": "",
@@ -59,28 +17,12 @@
     "link": "https://www.tokyomidtown-mc.jp/en/"
   },
   {
-    "id": "navi-medical-osaka",
-    "title": "Osaka Medical Navi (English)",
-    "image": "",
-    "tags": ["doctor", "osaka"],
-    "description": "Directory of English-friendly clinics and hospitals in Osaka. Covers general practice, mental health, and pediatrics.",
-    "link": "https://www.osaka-medicalnavi.jp/en/"
-  },
-  {
     "id": "mental-health-tokyo",
     "title": "TELL Lifeline & Counseling",
     "image": "",
     "tags": ["doctor", "tokyo"],
     "description": "English-language mental health support including counseling, therapy, and crisis intervention for expats in Japan.",
     "link": "https://telljp.com"
-  },
-  {
-    "id": "pediatrics-tokyo",
-    "title": "International Pediatrics Clinic Hiroo",
-    "image": "",
-    "tags": ["doctor", "tokyo"],
-    "description": "English-speaking pediatric clinic in Hiroo. Vaccinations, developmental checkups, and sick visits for expat families.",
-    "link": "https://www.ipc-hiroo.com"
   },
   {
     "id": "retirejapan",
@@ -92,38 +34,6 @@
     "link": "https://www.retirejapan.com"
   },
   {
-    "id": "japan-finance-fp",
-    "title": "Japan FP Consultants",
-    "image": "",
-    "tags": ["financial-advisor", "tokyo"],
-    "description": "Certified financial planners offering English consultations on insurance, investment, tax optimization, and estate planning in Japan.",
-    "link": "https://www.japanfp.com"
-  },
-  {
-    "id": "wise-tax-tokyo",
-    "title": "Wise Tax Advisors",
-    "image": "",
-    "tags": ["tax-accountant", "tokyo"],
-    "description": "Bilingual tax accountants handling annual tax returns, international income reporting, and NISA/iDeCo optimization for expats.",
-    "link": "https://www.wisetax.jp"
-  },
-  {
-    "id": "tax-japan-osaka",
-    "title": "Osaka International Tax Office",
-    "image": "",
-    "tags": ["tax-accountant", "osaka"],
-    "description": "English-speaking certified tax accountants in Osaka. Corporate tax, individual returns, inheritance tax, and cross-border taxation.",
-    "link": "https://www.osakatax-intl.jp"
-  },
-  {
-    "id": "htax-partners",
-    "title": "H-Tax Partners",
-    "image": "",
-    "tags": ["tax-accountant", "tokyo"],
-    "description": "Specialized in foreigner tax issues: departure tax, stock options, foreign income reporting, and US-Japan tax treaty optimization.",
-    "link": "https://www.htax.jp"
-  },
-  {
     "id": "plaza-homes",
     "title": "Plaza Homes",
     "image": "",
@@ -131,38 +41,6 @@
     "tags": ["real-estate", "tokyo"],
     "description": "Japan's largest English-language real estate agency. Renting, buying, and selling properties in Tokyo for foreign residents.",
     "link": "https://www.realestate.co.jp/en/"
-  },
-  {
-    "id": "gtn-real-estate",
-    "title": "GTN Real Estate",
-    "image": "",
-    "tags": ["real-estate", "tokyo"],
-    "description": "Specializes in helping foreigners rent apartments in Japan. No guarantor needed. Multilingual support in 12+ languages.",
-    "link": "https://gtn.co.jp/en/"
-  },
-  {
-    "id": "osaka-homes-intl",
-    "title": "Osaka Homes International",
-    "image": "",
-    "tags": ["real-estate", "osaka"],
-    "description": "English-speaking real estate agents helping foreigners find apartments and houses in the Osaka/Kansai area.",
-    "link": "https://www.osakahomes.jp"
-  },
-  {
-    "id": "nagoya-intl-clinic",
-    "title": "Nagoya International Clinic",
-    "image": "",
-    "tags": ["doctor", "other-regions"],
-    "description": "English-speaking clinic in Nagoya offering general practice, internal medicine, and travel health services.",
-    "link": "https://www.nic-nagoya.jp"
-  },
-  {
-    "id": "fukuoka-legal-aid",
-    "title": "Fukuoka Foreigner Legal Aid",
-    "image": "",
-    "tags": ["lawyer", "other-regions"],
-    "description": "Legal consultation service for foreign residents in Fukuoka. Immigration, labor law, and civil disputes with English interpretation.",
-    "link": "https://www.fukuoka-legal.jp"
   },
   {
     "id": "ohara-furukawa-osaka",
@@ -179,7 +57,7 @@
     "image": "",
     "featured": true,
     "tags": ["divorce", "lawyer", "tokyo"],
-    "description": "English-speaking law firm on US, Canadian, and UK Embassy referral lists. Specializes in international divorce, custody & visitation disputes, and Hague Convention cases. Client testimonials describe successful custody outcomes for foreign fathers.",
+    "description": "English-speaking law firm on US, Canadian, and UK Embassy referral lists. Specializes in international divorce, custody & visitation disputes, and Hague Convention cases.",
     "link": "https://setakoku-law.com/"
   },
   {
