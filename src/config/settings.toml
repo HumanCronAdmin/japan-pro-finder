@@ -65,6 +65,34 @@ emoji = ""
 description = "Foreigner-friendly real estate agents for renting and buying property in Japan."
 
 [[directoryData.tags]]
+key = "immigration"
+name = "Immigration"
+color = "teal"
+emoji = ""
+description = "Visa applications, permanent residency, naturalization, and immigration appeals."
+
+[[directoryData.tags]]
+key = "corporate"
+name = "Corporate / Business"
+color = "indigo"
+emoji = ""
+description = "Corporate law, contracts, M&A, and cross-border business transactions."
+
+[[directoryData.tags]]
+key = "labor"
+name = "Labor / Employment"
+color = "amber"
+emoji = ""
+description = "Unfair dismissal, wage disputes, harassment, and employment contracts."
+
+[[directoryData.tags]]
+key = "general"
+name = "General Practice"
+color = "slate"
+emoji = ""
+description = "General legal services covering multiple practice areas."
+
+[[directoryData.tags]]
 key = "tokyo"
 name = "Tokyo"
 color = "gray"
