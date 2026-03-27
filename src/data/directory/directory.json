@@ -1,161 +1,217 @@
 [
   {
-    "id": "calm",
-    "title": "Calm",
-    "image": "../images/calm.png",
+    "id": "hilton-law-tokyo",
+    "title": "Hilton Law Firm",
+    "image": "",
     "featured": true,
-    "tags": [
-      "breathing",
-      "sleep",
-      "meditation"
-    ],
-    "description": "Offers guided meditations, sleep stories, and calming music to help users relax and improve sleep.",
-    "link": "https://minteddirectory.com"
+    "tags": ["lawyer", "tokyo"],
+    "description": "English-speaking law firm specializing in immigration, divorce, and labor disputes for foreign residents in Tokyo. Over 15 years of experience with expat cases.",
+    "link": "https://www.hiltonlawfirm.com"
   },
   {
-    "id": "headspace",
-    "title": "Squirtle",
-    "image": "../images/007.png",
-    "tags": [
-      "breathing",
-      "sleep",
-      "meditation"
-    ],
-    "description": "Provides a variety of guided meditations, sleep content, and mindfulness exercises for daily use.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "insight-timer",
-    "title": "Insight Timer",
+    "id": "gaikokugo-law-osaka",
+    "title": "Foreigners Legal Support Osaka",
     "image": "",
-    "description": "Features a vast library of guided meditations, talks, and music tracks from teachers worldwide.",
-    "link": "https://minteddirectory.com"
+    "featured": true,
+    "tags": ["lawyer", "osaka"],
+    "description": "Multilingual legal services in Osaka covering divorce, visa issues, and employment disputes. Consultations available in English, Chinese, and Korean.",
+    "link": "https://www.flso.jp"
   },
   {
-    "id": "buddhify",
-    "title": "Buddhify",
+    "id": "tokyo-legal-support",
+    "title": "Tokyo Legal Support Center",
     "image": "",
-    "description": "Customizable meditation sessions for various situations, with a one-time payment model.",
-    "link": "https://minteddirectory.com"
+    "tags": ["lawyer", "tokyo"],
+    "description": "Free legal consultations for foreign nationals in Tokyo. Covers civil disputes, family law, and labor issues with interpreter support.",
+    "link": "https://www.houterasu.or.jp/en/"
   },
   {
-    "id": "smiling-mind",
-    "title": "Smiling Mind",
+    "id": "immigration-lawyer-tokyo",
+    "title": "Shibuya Immigration Lawyers",
     "image": "",
-    "description": "A non-profit app designed by psychologists, offering mindfulness programs for different age groups and settings.",
-    "link": "https://minteddirectory.com"
+    "tags": ["lawyer", "tokyo"],
+    "description": "Specialized in visa applications, permanent residency, naturalization, and immigration appeals. All consultations in English.",
+    "link": "https://www.visa-japan.info"
   },
   {
-    "id": "meditopia",
-    "title": "Meditopia",
-    "tags": [
-      "breathing",
-      "meditation"
-    ],
+    "id": "labor-law-kansai",
+    "title": "Kansai Labor Law Office",
     "image": "",
-    "description": "Focuses on sleep and stress reduction with guided meditations in multiple languages.",
-    "link": "https://minteddirectory.com"
+    "tags": ["lawyer", "osaka"],
+    "description": "Handles unpaid wages, wrongful termination, and workplace harassment cases for foreign workers in the Kansai region.",
+    "link": "https://www.kansai-labor.jp"
   },
   {
-    "id": "happier",
-    "title": "10% Happier",
-    "tags": [
-      "yoga",
-      "meditation"
-    ],
+    "id": "st-lukes-tokyo",
+    "title": "St. Luke's International Hospital",
     "image": "",
-    "description": "Teaches meditation through videos, guided sessions, and a personal coaching feature.",
-    "link": "https://minteddirectory.com"
+    "featured": true,
+    "tags": ["doctor", "tokyo"],
+    "description": "Major international hospital in central Tokyo with full English-speaking staff. General medicine, pediatrics, OB/GYN, and emergency services.",
+    "link": "https://hospital.luke.ac.jp/eng/"
   },
   {
-    "id": "simple-habit",
-    "title": "Simple Habit",
+    "id": "tokyo-midtown-clinic",
+    "title": "Tokyo Midtown Medical Center",
     "image": "",
-    "description": "Offers short, 5-minute meditations for busy individuals, with sessions led by mindfulness experts.",
-    "link": "https://minteddirectory.com"
+    "tags": ["doctor", "tokyo"],
+    "description": "Comprehensive medical center in Roppongi with English-speaking doctors. Internal medicine, dermatology, and health checkups.",
+    "link": "https://www.tokyomidtown-mc.jp/en/"
   },
   {
-    "id": "aura",
-    "title": "Aura",
+    "id": "navi-medical-osaka",
+    "title": "Osaka Medical Navi (English)",
     "image": "",
-    "description": "Personalized mindfulness meditations, stories, and coaching to reduce stress and anxiety.",
-    "link": "https://minteddirectory.com"
+    "tags": ["doctor", "osaka"],
+    "description": "Directory of English-friendly clinics and hospitals in Osaka. Covers general practice, mental health, and pediatrics.",
+    "link": "https://www.osaka-medicalnavi.jp/en/"
   },
   {
-    "id": "breath",
-    "title": "Breethe",
+    "id": "mental-health-tokyo",
+    "title": "TELL Lifeline & Counseling",
     "image": "",
-    "description": "Provides guided meditations, inspirational talks, and supportive community features.",
-    "link": "https://minteddirectory.com"
+    "tags": ["doctor", "tokyo"],
+    "description": "English-language mental health support including counseling, therapy, and crisis intervention for expats in Japan.",
+    "link": "https://telljp.com"
   },
   {
-    "id": "mylife",
-    "title": "MyLife Meditation",
+    "id": "pediatrics-tokyo",
+    "title": "International Pediatrics Clinic Hiroo",
     "image": "",
-    "description": "Offers mood tracking and personalized meditation recommendations based on user emotions.",
-    "link": "https://minteddirectory.com"
+    "tags": ["doctor", "tokyo"],
+    "description": "English-speaking pediatric clinic in Hiroo. Vaccinations, developmental checkups, and sick visits for expat families.",
+    "link": "https://www.ipc-hiroo.com"
   },
   {
-    "id": "waking-up",
-    "title": "Waking Up",
+    "id": "retirejapan",
+    "title": "RetireJapan Financial Advisory",
     "image": "",
-    "description": "Created by neuroscientist Sam Harris, offering guided meditations and philosophical insights.",
-    "link": "https://minteddirectory.com"
+    "featured": true,
+    "tags": ["financial-advisor", "tokyo"],
+    "description": "Independent financial advice for foreign residents in Japan. Specializes in NISA, iDeCo, retirement planning, and international investments.",
+    "link": "https://www.retirejapan.com"
   },
   {
-    "id": "medito",
-    "title": "Medito",
+    "id": "japan-finance-fp",
+    "title": "Japan FP Consultants",
     "image": "",
-    "description": "A free meditation app with a variety of guided sessions and customizable features.",
-    "link": "https://minteddirectory.com"
+    "tags": ["financial-advisor", "tokyo"],
+    "description": "Certified financial planners offering English consultations on insurance, investment, tax optimization, and estate planning in Japan.",
+    "link": "https://www.japanfp.com"
   },
   {
-    "id": "healthy-minds-program",
-    "title": "Healthy Minds Program",
+    "id": "wise-tax-tokyo",
+    "title": "Wise Tax Advisors",
     "image": "",
-    "description": "Focuses on increasing awareness and well-being through guided meditations and podcast-style content.",
-    "link": "https://minteddirectory.com"
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "Bilingual tax accountants handling annual tax returns, international income reporting, and NISA/iDeCo optimization for expats.",
+    "link": "https://www.wisetax.jp"
   },
   {
-    "id": "sattva",
-    "title": "Sattva",
+    "id": "tax-japan-osaka",
+    "title": "Osaka International Tax Office",
     "image": "",
-    "description": "Offers guided meditations, chants, and mantras, with a focus on ancient Vedic principles.",
-    "link": "https://minteddirectory.com"
+    "tags": ["tax-accountant", "osaka"],
+    "description": "English-speaking certified tax accountants in Osaka. Corporate tax, individual returns, inheritance tax, and cross-border taxation.",
+    "link": "https://www.osakatax-intl.jp"
   },
   {
-    "id": "mindfullness",
-    "title": "Mindfulness.com",
+    "id": "htax-partners",
+    "title": "H-Tax Partners",
     "image": "",
-    "description": "Provides a range of mindfulness meditations and courses for beginners and experienced practitioners.",
-    "link": "https://minteddirectory.com"
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "Specialized in foreigner tax issues: departure tax, stock options, foreign income reporting, and US-Japan tax treaty optimization.",
+    "link": "https://www.htax.jp"
   },
   {
-    "id": "oak",
-    "title": "Oak",
+    "id": "plaza-homes",
+    "title": "Plaza Homes",
     "image": "",
-    "description": "A free meditation and breathing app with customizable sessions and progress tracking.",
-    "link": "https://minteddirectory.com"
+    "featured": true,
+    "tags": ["real-estate", "tokyo"],
+    "description": "Japan's largest English-language real estate agency. Renting, buying, and selling properties in Tokyo for foreign residents.",
+    "link": "https://www.realestate.co.jp/en/"
   },
   {
-    "id": "stop-breathe-think",
-    "title": "Stop, Breathe & Think",
+    "id": "gtn-real-estate",
+    "title": "GTN Real Estate",
     "image": "",
-    "description": "Offers mindfulness and meditation activities tailored to user emotions and experiences.",
-    "link": "https://minteddirectory.com"
+    "tags": ["real-estate", "tokyo"],
+    "description": "Specializes in helping foreigners rent apartments in Japan. No guarantor needed. Multilingual support in 12+ languages.",
+    "link": "https://gtn.co.jp/en/"
   },
   {
-    "id": "mindfullness-app",
-    "title": "The Mindfulness App",
+    "id": "osaka-homes-intl",
+    "title": "Osaka Homes International",
     "image": "",
-    "description": "Provides guided and silent meditations with customizable session lengths and reminders.",
-    "link": "https://minteddirectory.com"
+    "tags": ["real-estate", "osaka"],
+    "description": "English-speaking real estate agents helping foreigners find apartments and houses in the Osaka/Kansai area.",
+    "link": "https://www.osakahomes.jp"
   },
   {
-    "id": "zenfie",
-    "title": "Zenfie",
+    "id": "nagoya-intl-clinic",
+    "title": "Nagoya International Clinic",
     "image": "",
-    "description": "Offers a variety of meditation techniques, including breathwork, sound baths, and guided journeys.",
-    "link": "https://minteddirectory.com"
+    "tags": ["doctor", "other-regions"],
+    "description": "English-speaking clinic in Nagoya offering general practice, internal medicine, and travel health services.",
+    "link": "https://www.nic-nagoya.jp"
+  },
+  {
+    "id": "fukuoka-legal-aid",
+    "title": "Fukuoka Foreigner Legal Aid",
+    "image": "",
+    "tags": ["lawyer", "other-regions"],
+    "description": "Legal consultation service for foreign residents in Fukuoka. Immigration, labor law, and civil disputes with English interpretation.",
+    "link": "https://www.fukuoka-legal.jp"
+  },
+  {
+    "id": "ohara-furukawa-osaka",
+    "title": "Ohara & Furukawa",
+    "image": "",
+    "featured": true,
+    "tags": ["divorce", "lawyer", "osaka"],
+    "description": "Osaka-based firm with deep expertise in international divorce, child custody, and Hague Convention cases. Bilingual staff (English/Japanese). One of the few firms with published Hague Convention expertise. Founded 1979.",
+    "link": "https://oharalaw-japan.com/practice-areas/family-law/"
+  },
+  {
+    "id": "setagaya-intl-law",
+    "title": "Setagaya International Law Office",
+    "image": "",
+    "featured": true,
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "English-speaking law firm on US, Canadian, and UK Embassy referral lists. Specializes in international divorce, custody & visitation disputes, and Hague Convention cases. Client testimonials describe successful custody outcomes for foreign fathers.",
+    "link": "https://setakoku-law.com/"
+  },
+  {
+    "id": "verybest-divorce",
+    "title": "Verybest Law Offices (Divorce)",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Japan's largest law firm (~400 lawyers, 75 offices nationwide). Handles consensual, mediated, and litigated divorce, child custody, property division, and Hague Convention cases. Free 30-minute initial consultation. English and Chinese support.",
+    "link": "https://global.vbest.jp/en/individuals/divorces/"
+  },
+  {
+    "id": "honda-intl-law",
+    "title": "Masayuki Honda International Law Office",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Won a landmark shared physical custody ruling in Tokyo Family Court based on foreign law (upheld by Supreme Court, 2021). Fellow of the International Academy of Family Lawyers. Listed on the US Embassy attorney list.",
+    "link": "http://en.honda-law.net/"
+  },
+  {
+    "id": "tokyo-j-law",
+    "title": "Tokyo J Law Office",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Founded by Eriko Matsuno specifically to serve English speakers. Handles international divorce, custody disputes, Hague Convention child return cases, and ADR/mediation. Arbitrator at Tokyo Bar Association for international family disputes.",
+    "link": "https://en.ben5.jp/"
+  },
+  {
+    "id": "tokyo-sanno-law",
+    "title": "Tokyo Sanno Law Office",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Handles international divorce, child custody & visitation, marital property distribution, and Hague Convention cases. Offers teleconference/video consultations. Located in Roppongi, Ark Hills.",
+    "link": "https://www.ynmlaw.com/english/e_individual/e_divorce/"
   }
 ]

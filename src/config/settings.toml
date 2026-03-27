@@ -3,87 +3,107 @@
 theme = 'brookmint'
 
 [general]
-title = "Meditation Apps"
+title = "Japan Pro Finder"
 logo = ""
-iconLogo = "tabler:coffee"
+iconLogo = "tabler:briefcase"
 
 [general.seo]
-name = "Cafe Directory"
-description = "Find the best nuxt starter kits."
-url = "https://nuxtstarters.com"
+name = "Japan Pro Finder"
+description = "Find English-speaking lawyers, doctors, and financial advisors in Japan. A directory for expats and foreign residents."
+url = "https://humancronadmin.github.io/japan-pro-finder"
 
 [directoryData.source]
-name = "json"    # default, mock, sheets, json
+name = "json"
 links = "normal"
 
 [directoryData.tagPages]
-title = "{0} Apps"
+title = "{0} Professionals"
 
 [directoryData.search]
-placeholder = "Search among {0} listings of this directory :)"
+placeholder = "Search among {0} professionals in Japan..."
 
 [[directoryData.tags]]
-key = "breathing"
-name = "Breathing"
+key = "divorce"
+name = "Divorce & Custody"
+color = "rose"
+emoji = ""
+description = "Divorce lawyers specializing in international custody disputes, asset division, and family law for foreign residents."
+
+[[directoryData.tags]]
+key = "lawyer"
+name = "Lawyer"
 color = "blue"
-emoji = "👃"
-description = "Breathing techniques are a popular feature in meditation apps."
+emoji = ""
+description = "Immigration, divorce, labor, and general legal services for foreign residents in Japan."
 
 [[directoryData.tags]]
-key = "sleep"
-name = "Sleep"
+key = "tax-accountant"
+name = "Tax Accountant"
 color = "green"
-emoji = "💤"
-description = "Some apps include music that slowly goes away to help you sleep better and rest."
+emoji = ""
+description = "Tax filing, NISA, inheritance tax, and international tax advisory for expats."
 
 [[directoryData.tags]]
-key = "meditation"
-name = "Meditation"
+key = "financial-advisor"
+name = "Financial Advisor"
 color = "purple"
-emoji = "🧘‍♂️"
-description = "A meditation for your life. It's a great way to relax and clear your mind. It's also a great way to improve your sleep."
+emoji = ""
+description = "Investment planning, retirement, insurance, and wealth management for foreign residents."
 
 [[directoryData.tags]]
-key = "yoga"
-name = "Yoga"
-color = "purple"
-emoji = "🧘‍♂️"
-description = "A yoga for your life."
+key = "doctor"
+name = "Doctor / Clinic"
+color = "red"
+emoji = ""
+description = "English-speaking hospitals, clinics, pediatrics, and mental health services."
 
 [[directoryData.tags]]
-key = "timer"
-name = "Timer"
-color = "green"
-emoji = "⏰"
-description = "Timers can be used to track how much you meditate."
+key = "real-estate"
+name = "Real Estate Agent"
+color = "orange"
+emoji = ""
+description = "Foreigner-friendly real estate agents for renting and buying property in Japan."
+
+[[directoryData.tags]]
+key = "tokyo"
+name = "Tokyo"
+color = "gray"
+emoji = ""
+description = "Professionals based in the Tokyo metropolitan area."
+
+[[directoryData.tags]]
+key = "osaka"
+name = "Osaka"
+color = "gray"
+emoji = ""
+description = "Professionals based in the Osaka / Kansai area."
+
+[[directoryData.tags]]
+key = "other-regions"
+name = "Other Regions"
+color = "gray"
+emoji = ""
+description = "Professionals in Nagoya, Fukuoka, Sapporo, and other areas."
 
 [header.banner]
 show = true
-text = "Follow mark_bruderer on twitter."
-link = "https://x.com/intent/follow?screen_name=mark_bruderer"
-brandText = "AI Agent Libraries"
+text = "Know an English-speaking professional in Japan? Submit them!"
+link = "https://forms.gle/placeholder"
+brandText = "Japan Pro Finder"
 
 [header.navbar]
 colorModeSelector = true
 
 [[header.navbar.links]]
-name = "Blog"
+name = "About"
 href = "/blog"
 
-[[header.navbar.links]]
-name = "Analytics"
-href = "https://us.posthog.com/shared/vHlGCcSqPjGH4r_QijaXSETtmN9J-g"
-target = "_blank"
-
 [header.actionButton]
-text = "Submit an app"
-href = "https://tally.so"
+text = "Submit a Professional"
+href = "https://forms.gle/placeholder"
 
 [footer]
-description = "Best directory for my niche."
+description = "Helping foreign residents in Japan find the right professional support."
 
 [footer.socials.x]
-link = "https://x.com/mark_bruderer"
-
-[footer.socials.youtube]
-link = "https://www.youtube.com/@mark_hacks"
+link = ""
