@@ -114,21 +114,14 @@ emoji = ""
 description = "Professionals in Nagoya, Fukuoka, Sapporo, and other areas."
 
 [header.banner]
-show = true
-text = "Know an English-speaking professional in Japan? Submit them!"
-link = "https://forms.gle/placeholder"
+show = false
+text = ""
+link = ""
 brandText = "Japan Pro Finder"
 
 [header.navbar]
 colorModeSelector = true
 
-[[header.navbar.links]]
-name = "About"
-href = "/japan-pro-finder/blog"
-
-[header.actionButton]
-text = "Submit a Professional"
-href = "https://forms.gle/placeholder"
 
 [footer]
 description = "Helping foreign residents in Japan find the right professional support."

@@ -86,12 +86,14 @@ const currentPath = new URL(Astro.request.url).pathname;
               <ColorSelector transition:persist class="hidden md:flex" />
             )
           }
+          { config?.header.actionButton?.href &&
           <a
             href={config?.header.actionButton?.href}
             class="hidden md:block text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
             {config?.header.actionButton?.text}
           </a>
+          }
         </div>
       </div>
     </div>
@@ -117,6 +119,7 @@ const currentPath = new URL(Astro.request.url).pathname;
       }
     </div>
 
+    { config?.header.actionButton?.href &&
     <div class="border-t border-gray-200 pb-3 pt-4">
       <div class="flex items-center px-4">
         <a
@@ -127,6 +130,7 @@ const currentPath = new URL(Astro.request.url).pathname;
         </a>
       </div>
     </div>
+    }
   </div>
 </nav>
 
@@ -134,15 +138,10 @@ const currentPath = new URL(Astro.request.url).pathname;
 <script>
   const mobileMenuButton = document.getElementById("mobile-menu-button");
   const mobileMenu = document.getElementById("mobile-menu");
-  const mobileMenuIcon = document.getElementById("mobile-menu-icon");
 
-  if (mobileMenuButton && mobileMenu && mobileMenuIcon) {
+  if (mobileMenuButton && mobileMenu) {
     mobileMenuButton.addEventListener("click", () => {
-      const isOpen = mobileMenu.classList.toggle("hidden");
-      mobileMenuIcon.setAttribute(
-        "name",
-        isOpen ? "tabler:baseline-density-medium" : "tabler:x",
-      );
+      mobileMenu.classList.toggle("hidden");
     });
   }
 </script>

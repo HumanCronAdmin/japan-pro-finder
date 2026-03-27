@@ -30,7 +30,6 @@ function getPostCoverImage(entry: AllContent) {
  
 export async function GET({ params }: Props) {
   const title = config.general.title;
-  console.log(params);
   const { slug } = params;
 
   let entry: AllContent | undefined;

@@ -36,7 +36,7 @@ const currentPath = new URL(Astro.request.url).pathname;
                   href={nav.href}
                   target={nav.target || "_self"}
                   class="font-medium inline-flex py-2 px-3 text-gray-700 dark:text-gray-200 bg-primary-700 rounded md:bg-transparent md:p-0 md:dark:text-gray-300"
-                  aria-current="page"
+                  aria-current={isActive(nav.href, currentPath) ? "page" : undefined}
                 >
                   {nav.name}
                   {nav.target === '_blank' ? <Icon class="text-gray-500" name="tabler:arrow-up-right" /> : <></>}
@@ -50,7 +50,7 @@ const currentPath = new URL(Astro.request.url).pathname;
     <div
       class="flex gap-3 items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
     >
-    { config.header.actionButton.href &&
+    { config.header.actionButton?.href &&
       <a
         href={config.header.actionButton.href}
         class="hidden md:inline-flex items-center dark:text-gray-300 text-gray-600"
@@ -82,38 +82,38 @@ const currentPath = new URL(Astro.request.url).pathname;
             d="M1 1h15M1 7h15M1 13h15"></path>
         </svg>
       </button>
-      <div id="mobile-menu" class="sm:hidden hidden">
-        <div class="space-y-1 pb-4 pt-2">
-          {
-            config.header.navbar.links.map((item) => (
-              <a
-                href={item.href}
-                class={`block border-l-4 py-2 pl-3 pr-4 text-base font-medium ${
-                  isActive(item.href, currentPath)
-                    ? 'bg-primary-50 border-primary-500 text-primary-700'
-                    : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
-                }`}
-              >
-                {item.name}
-                {item.target === '_blank' && <Icon name="tabler:external-link" />}
-              </a>
-            ))
-          }
-        </div>
     </div>
   </div>
 </nav>
 
+<!-- Mobile menu (outside nav for proper layout) -->
+<div id="mobile-menu" class="md:hidden hidden">
+  <div class="space-y-1 pb-4 pt-2">
+    {
+      config.header.navbar.links.map((item) => (
+        <a
+          href={item.href}
+          class={`block border-l-4 py-2 pl-3 pr-4 text-base font-medium ${
+            isActive(item.href, currentPath)
+              ? 'bg-primary-50 border-primary-500 text-primary-700'
+              : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
+          }`}
+        >
+          {item.name}
+          {item.target === '_blank' && <Icon name="tabler:external-link" />}
+        </a>
+      ))
+    }
+  </div>
+</div>
 
 <script>
   const mobileMenuButton = document.getElementById('mobile-menu-button');
   const mobileMenu = document.getElementById('mobile-menu');
-  const mobileMenuIcon = document.getElementById('mobile-menu-icon');
 
-  if (mobileMenuButton && mobileMenu && mobileMenuIcon) {
+  if (mobileMenuButton && mobileMenu) {
     mobileMenuButton.addEventListener('click', () => {
-      const isOpen = mobileMenu.classList.toggle('hidden');
-      mobileMenuIcon.setAttribute('name', isOpen ? 'tabler:baseline-density-medium' : 'tabler:x');
+      mobileMenu.classList.toggle('hidden');
     });
   }
 </script>
