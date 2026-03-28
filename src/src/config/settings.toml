@@ -1,0 +1,130 @@
+# available directory themes:
+# spearmint, peppermint, hemingway, brookmint
+theme = 'brookmint'
+
+[general]
+title = "Japan Pro Finder"
+logo = ""
+iconLogo = "tabler:briefcase"
+
+[general.seo]
+name = "Japan Pro Finder"
+description = "Find English-speaking lawyers, doctors, and financial advisors in Japan. A directory for expats and foreign residents."
+url = "https://humancronadmin.github.io/japan-pro-finder"
+
+[directoryData.source]
+name = "json"
+links = "normal"
+
+[directoryData.tagPages]
+title = "{0} Professionals"
+
+[directoryData.search]
+placeholder = "Search among {0} professionals in Japan..."
+
+[[directoryData.tags]]
+key = "divorce"
+name = "Divorce & Custody"
+color = "rose"
+emoji = ""
+description = "Divorce lawyers specializing in international custody disputes, asset division, and family law for foreign residents."
+
+[[directoryData.tags]]
+key = "lawyer"
+name = "Lawyer"
+color = "blue"
+emoji = ""
+description = "Immigration, divorce, labor, and general legal services for foreign residents in Japan."
+
+[[directoryData.tags]]
+key = "tax-accountant"
+name = "Tax Accountant"
+color = "green"
+emoji = ""
+description = "Tax filing, NISA, inheritance tax, and international tax advisory for expats."
+
+[[directoryData.tags]]
+key = "financial-advisor"
+name = "Financial Advisor"
+color = "purple"
+emoji = ""
+description = "Investment planning, retirement, insurance, and wealth management for foreign residents."
+
+[[directoryData.tags]]
+key = "doctor"
+name = "Doctor / Clinic"
+color = "red"
+emoji = ""
+description = "English-speaking hospitals, clinics, pediatrics, and mental health services."
+
+[[directoryData.tags]]
+key = "real-estate"
+name = "Real Estate Agent"
+color = "orange"
+emoji = ""
+description = "Foreigner-friendly real estate agents for renting and buying property in Japan."
+
+[[directoryData.tags]]
+key = "immigration"
+name = "Immigration"
+color = "teal"
+emoji = ""
+description = "Visa applications, permanent residency, naturalization, and immigration appeals."
+
+[[directoryData.tags]]
+key = "corporate"
+name = "Corporate / Business"
+color = "indigo"
+emoji = ""
+description = "Corporate law, contracts, M&A, and cross-border business transactions."
+
+[[directoryData.tags]]
+key = "labor"
+name = "Labor / Employment"
+color = "amber"
+emoji = ""
+description = "Unfair dismissal, wage disputes, harassment, and employment contracts."
+
+[[directoryData.tags]]
+key = "general"
+name = "General Practice"
+color = "slate"
+emoji = ""
+description = "General legal services covering multiple practice areas."
+
+[[directoryData.tags]]
+key = "tokyo"
+name = "Tokyo"
+color = "gray"
+emoji = ""
+description = "Professionals based in the Tokyo metropolitan area."
+
+[[directoryData.tags]]
+key = "osaka"
+name = "Osaka"
+color = "gray"
+emoji = ""
+description = "Professionals based in the Osaka / Kansai area."
+
+[[directoryData.tags]]
+key = "other-regions"
+name = "Other Regions"
+color = "gray"
+emoji = ""
+description = "Professionals in Nagoya, Fukuoka, Sapporo, and other areas."
+
+[header.banner]
+show = false
+text = ""
+link = ""
+brandText = "Japan Pro Finder"
+
+[header.navbar]
+colorModeSelector = true
+
+
+[footer]
+description = "Helping foreign residents in Japan find the right professional support."
+
+[footer.socials.x]
+link = ""

@@ -1,0 +1,293 @@
+[
+  {
+    "id": "st-lukes-tokyo",
+    "title": "St. Luke's International Hospital",
+    "image": "",
+    "featured": false,
+    "tags": ["doctor", "tokyo"],
+    "description": "Major international hospital in central Tokyo with full English-speaking staff. General medicine, pediatrics, OB/GYN, and emergency services.",
+    "link": "https://hospital.luke.ac.jp/eng/"
+  },
+  {
+    "id": "tokyo-midtown-clinic",
+    "title": "Tokyo Midtown Medical Center",
+    "image": "",
+    "tags": ["doctor", "tokyo"],
+    "description": "Comprehensive medical center in Roppongi with English-speaking doctors. Internal medicine, dermatology, and health checkups.",
+    "link": "https://www.tokyomidtown-mc.jp/en/"
+  },
+  {
+    "id": "mental-health-tokyo",
+    "title": "TELL Lifeline & Counseling",
+    "image": "",
+    "tags": ["doctor", "tokyo"],
+    "description": "English-language mental health support including counseling, therapy, and crisis intervention for expats in Japan.",
+    "link": "https://telljp.com"
+  },
+  {
+    "id": "retirejapan",
+    "title": "RetireJapan Financial Advisory",
+    "image": "",
+    "featured": false,
+    "tags": ["financial-advisor", "tokyo"],
+    "description": "Independent financial advice for foreign residents in Japan. Specializes in NISA, iDeCo, retirement planning, and international investments.",
+    "link": "https://www.retirejapan.com"
+  },
+  {
+    "id": "plaza-homes",
+    "title": "Plaza Homes",
+    "image": "",
+    "featured": false,
+    "tags": ["real-estate", "tokyo"],
+    "description": "Japan's largest English-language real estate agency. Renting, buying, and selling properties in Tokyo for foreign residents.",
+    "link": "https://www.realestate.co.jp/en/"
+  },
+  {
+    "id": "ohara-furukawa-osaka",
+    "title": "Ohara & Furukawa",
+    "image": "",
+    "featured": false,
+    "tags": ["divorce", "lawyer", "osaka"],
+    "description": "Osaka-based firm with deep expertise in international divorce, child custody, and Hague Convention cases. Bilingual staff (English/Japanese). One of the few firms with published Hague Convention expertise. Founded 1979.",
+    "link": "https://oharalaw-japan.com/practice-areas/family-law/"
+  },
+  {
+    "id": "setagaya-intl-law",
+    "title": "Setagaya International Law Office",
+    "image": "",
+    "featured": false,
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "English-speaking law firm on US, Canadian, and UK Embassy referral lists. Specializes in international divorce, custody & visitation disputes, and Hague Convention cases.",
+    "link": "https://setakoku-law.com/"
+  },
+  {
+    "id": "verybest-divorce",
+    "title": "Verybest Law Offices (Divorce)",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Japan's largest law firm (~400 lawyers, 75 offices nationwide). Handles consensual, mediated, and litigated divorce, child custody, property division, and Hague Convention cases. Free 30-minute initial consultation. English and Chinese support.",
+    "link": "https://global.vbest.jp/en/individuals/divorces/"
+  },
+  {
+    "id": "honda-intl-law",
+    "title": "Masayuki Honda International Law Office",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Won a landmark shared physical custody ruling in Tokyo Family Court based on foreign law (upheld by Supreme Court, 2021). Fellow of the International Academy of Family Lawyers. Listed on the US Embassy attorney list.",
+    "link": "http://en.honda-law.net/"
+  },
+  {
+    "id": "tokyo-j-law",
+    "title": "Tokyo J Law Office",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Founded by Eriko Matsuno specifically to serve English speakers. Handles international divorce, custody disputes, Hague Convention child return cases, and ADR/mediation. Arbitrator at Tokyo Bar Association for international family disputes.",
+    "link": "https://en.ben5.jp/"
+  },
+  {
+    "id": "tokyo-sanno-law",
+    "title": "Tokyo Sanno Law Office",
+    "image": "",
+    "tags": ["divorce", "lawyer", "tokyo"],
+    "description": "Handles international divorce, child custody & visitation, marital property distribution, and Hague Convention cases. Offers teleconference/video consultations. Located in Roppongi, Ark Hills.",
+    "link": "https://www.ynmlaw.com/english/e_individual/e_divorce/"
+  },
+  {
+    "id": "acroseed-immigration",
+    "title": "ACROSEED Immigration Lawyer's Office",
+    "image": "",
+    "featured": false,
+    "tags": ["lawyer", "immigration", "tokyo"],
+    "description": "Leading immigration firm since 1986 with 99.9% approval rate. Handles all visa types, permanent residence, naturalization, and business setup. English and Chinese support. Free consultations available.",
+    "link": "https://english.visajapan.jp/"
+  },
+  {
+    "id": "samurai-immigration",
+    "title": "Samurai Immigration Law Firm",
+    "image": "",
+    "tags": ["lawyer", "immigration", "tokyo"],
+    "description": "Immigration specialists with 7 offices across Japan (Tokyo, Yokohama, Osaka, Nagoya). Free consultations, weekend appointments available. Handles all visa categories including work, family, and permanent residence.",
+    "link": "https://samurai-law.com/en/"
+  },
+  {
+    "id": "juridique-june-advisors",
+    "title": "June Advisors Group (Juridique.jp)",
+    "image": "",
+    "tags": ["lawyer", "immigration", "tokyo"],
+    "description": "Bilingual professionals assisting with visa applications, company incorporation, and business setup in Japan. Joint legal office with consulting services for market entry.",
+    "link": "https://www.juridique.jp/"
+  },
+  {
+    "id": "oak-admin-immigration",
+    "title": "Oak Admin Office",
+    "image": "",
+    "tags": ["lawyer", "immigration", "tokyo"],
+    "description": "English-speaking immigration specialist in Tokyo. Expert assistance for all visa types, permanent residence, Certificate of Eligibility, and Business Manager Visas.",
+    "link": "https://oak-admin.jp/"
+  },
+  {
+    "id": "atsumi-sakai",
+    "title": "Atsumi & Sakai (APLaw Japan)",
+    "image": "",
+    "featured": false,
+    "tags": ["lawyer", "corporate", "tokyo"],
+    "description": "Full-service Tokyo law firm with 200+ lawyers including 23 foreign attorneys. Specializes in corporate law, labor/employment, M&A, and cross-border transactions. Most lawyers conduct business in English.",
+    "link": "https://www.aplawjapan.com/en/about-us"
+  },
+  {
+    "id": "sumikawa-law",
+    "title": "Sumikawa Law Office",
+    "image": "",
+    "tags": ["lawyer", "general", "tokyo"],
+    "description": "English-speaking law firm in Kawasaki (between Tokyo and Yokohama). Covers corporate law, contracts, labor disputes, inheritance, divorce, real estate, and bankruptcy. No translator needed.",
+    "link": "https://sumikawa.net/"
+  },
+  {
+    "id": "fujii-labor-law",
+    "title": "Lawyer Yasuhiro Fujii",
+    "image": "",
+    "tags": ["lawyer", "labor", "tokyo"],
+    "description": "Bilingual employment and labor law specialist with 25+ years experience. Advises on dismissal, wage disputes, harassment, contracts, and restructuring for both employers and employees.",
+    "link": "https://www.yf-law.jp/e/practice/"
+  },
+  {
+    "id": "verybest-labor",
+    "title": "Verybest Law Offices (Labor)",
+    "image": "",
+    "tags": ["lawyer", "labor", "tokyo"],
+    "description": "Japan's largest law firm handling employment disputes for foreigners. Covers unfair dismissal, employment contracts, labor tribunal representation, and performance disputes. English and Chinese support.",
+    "link": "https://global.vbest.jp/en/individuals/employment/"
+  },
+  {
+    "id": "hattori-law",
+    "title": "Hattori Law Firm",
+    "image": "",
+    "tags": ["lawyer", "corporate", "tokyo"],
+    "description": "Business law firm in Tokyo supporting foreign companies and individuals. Specializes in English-language contract negotiation, corporate legal matters, and international business transactions in Japan.",
+    "link": "https://www.hrtlawfirm.com/practice/"
+  },
+  {
+    "id": "tmsc",
+    "title": "Tokyo Medical and Surgical Clinic",
+    "image": "",
+    "featured": false,
+    "tags": ["doctor", "tokyo"],
+    "description": "Established in 1951 with European and US-trained doctors. Full general practice, internal medicine, dermatology, pediatrics, psychotherapy, and minor surgery. Language support in English, Spanish, German, and French.",
+    "link": "https://tmsc.jp/"
+  },
+  {
+    "id": "american-clinic-tokyo",
+    "title": "American Clinic Tokyo",
+    "image": "",
+    "tags": ["doctor", "tokyo"],
+    "description": "Native English-speaking physicians in Akasaka, Minato-ku. General medicine, orthopedics, vaccinations, and travel clinic. Offers telemedicine and hotel house calls. 64% of patients from the USA.",
+    "link": "https://www.americanclinictokyo.com/"
+  },
+  {
+    "id": "tokyo-station-intl-clinic",
+    "title": "Tokyo Station International Clinic",
+    "image": "",
+    "tags": ["doctor", "tokyo"],
+    "description": "Open daily 9AM-9PM, 2 minutes from Tokyo Station. English and Chinese-speaking doctors serving 700+ overseas patients monthly. Internal medicine, surgery, dermatology, and pediatrics.",
+    "link": "https://www.international-clinic.tokyo/"
+  },
+  {
+    "id": "raffles-medical-osaka",
+    "title": "Raffles Medical Osaka",
+    "image": "",
+    "featured": false,
+    "tags": ["doctor", "osaka"],
+    "description": "Part of Singapore's largest private healthcare group. Family medicine, travel medicine, dermatology, health screenings. English, Chinese, and Japanese-speaking doctors and staff. Located in Herbis Osaka, Umeda.",
+    "link": "https://www.rafflesmedicalgroup.com/clinic/raffles-medical-osaka/"
+  },
+  {
+    "id": "argentum-wealth",
+    "title": "Argentum Wealth Management",
+    "image": "",
+    "featured": false,
+    "tags": ["financial-advisor", "tokyo"],
+    "description": "Japan's largest licensed independent financial advisory firm for expats. Financial planning, investments, retirement, insurance, and estate planning. Licensed by Japanese Ministry of Finance. English, Japanese, Chinese, and Spanish support.",
+    "link": "https://argentumwealth.com/"
+  },
+  {
+    "id": "otani-accounting",
+    "title": "Otani Accounting Office",
+    "image": "",
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "Bilingual tax and accounting firm operating since 1983. Company incorporation, tax filing, payroll, and accounting for foreigners. Serves 3,600+ clients from multiple countries. Multilingual support.",
+    "link": "https://otaniaccounting.com/"
+  },
+  {
+    "id": "kaori-fuchi-tax",
+    "title": "Kaori Fuchi Tax and Consulting",
+    "image": "",
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "Boutique international tax firm founded by ex-Ernst & Young certified tax accountant. English accounting, tax filing, bookkeeping, and payroll for foreign companies and individuals in Japan.",
+    "link": "https://www.kaori-fuchi.com/en/"
+  },
+  {
+    "id": "yasuda-accounting",
+    "title": "YASUDA Accounting",
+    "image": "",
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "English-speaking accounting firm specializing in international taxation. Services for foreign companies and individuals in Japan including tax returns, bookkeeping, and business consulting.",
+    "link": "https://yasuda-accounting.com/en/"
+  },
+  {
+    "id": "kyno-office",
+    "title": "Kyno Tax Office",
+    "image": "",
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "Ex-Big 4 tax advisor providing Japanese tax services in English. Individual and corporate tax returns, consultation via Zoom/Google Meet/LINE. Located in Shinagawa, Tokyo.",
+    "link": "https://www.kyno-office.com/en/"
+  },
+  {
+    "id": "ken-corporation",
+    "title": "Ken Corporation",
+    "image": "",
+    "featured": false,
+    "tags": ["real-estate", "tokyo"],
+    "description": "Leading Tokyo real estate agency with 50+ years experience and 7,000+ properties. Specializes in premium expat housing and corporate relocation. 30 fluent English-speaking agents. Trusted by embassies and global companies.",
+    "link": "https://www.kencorp.com/"
+  },
+  {
+    "id": "athearth",
+    "title": "AtHearth",
+    "image": "",
+    "tags": ["real-estate", "tokyo"],
+    "description": "Foreigner-friendly apartment platform with 2,000+ curated Tokyo listings. No guarantor needed. AI-powered matching, English support, and digital applications. Served 5,000+ expats since 2015.",
+    "link": "https://www.athearth.com/"
+  },
+  {
+    "id": "gaijinpot-apartments",
+    "title": "GaijinPot Apartments",
+    "image": "",
+    "tags": ["real-estate", "tokyo"],
+    "description": "Japan's largest English-language apartment search platform for foreigners. Nationwide coverage with focus on Tokyo and Osaka. No guarantor or Japanese bank account needed. Apply from overseas.",
+    "link": "https://apartments.gaijinpot.com/en/rent"
+  },
+  {
+    "id": "sun-realty",
+    "title": "Sun Realty & Insurance",
+    "image": "",
+    "tags": ["real-estate", "tokyo"],
+    "description": "Pioneering luxury expat housing agency with nearly 70 years in Tokyo. First agency to offer premium housing to foreign residents. Japanese and English-speaking agents for rentals, sales, and property management.",
+    "link": "https://www.sunrealty.co.jp/"
+  },
+  {
+    "id": "urushimatsu-tax",
+    "title": "Urushimatsu Tax Accountant Office",
+    "image": "",
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "Tax accountant office specializing in services for foreign nationals living and working in Japan. English-language support for individual and corporate tax filing, residence tax, and year-end adjustments.",
+    "link": "https://urushimatsu-zeirishi.com/english/"
+  },
+  {
+    "id": "takahashi-toshiko-tax",
+    "title": "Toshiko Takahashi Tax Office",
+    "image": "",
+    "tags": ["tax-accountant", "tokyo"],
+    "description": "Certified public tax accountant with nearly 20 years experience. English-speaking tax services for small businesses and non-resident tax representation in Japan.",
+    "link": "https://takahashitoshiko.com/english/"
+  }
+]
