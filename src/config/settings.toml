@@ -10,7 +10,7 @@ iconLogo = "tabler:briefcase"
 [general.seo]
 name = "Japan Pro Finder"
 description = "Find English-speaking lawyers, doctors, and financial advisors in Japan. A directory for expats and foreign residents."
-url = "https://humancronadmin.github.io/japan-pro-finder"
+url = "https://japanprofinder.com"
 
 [directoryData.source]
 name = "json"
