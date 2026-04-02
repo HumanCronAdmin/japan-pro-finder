@@ -123,15 +123,15 @@ brandText = "Japan Pro Finder"
 colorModeSelector = true
 
 [[header.navbar.links]]
-label = "About"
+name = "About"
 href = "/about"
 
 [[header.navbar.links]]
-label = "Submit"
+name = "Submit"
 href = "/submit"
 
 [[header.navbar.links]]
-label = "Advertise"
+name = "Advertise"
 href = "/advertise"
 
 
