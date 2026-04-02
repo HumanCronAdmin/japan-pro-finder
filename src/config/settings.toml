@@ -122,6 +122,18 @@ brandText = "Japan Pro Finder"
 [header.navbar]
 colorModeSelector = true
 
+[[header.navbar.links]]
+label = "About"
+href = "/about"
+
+[[header.navbar.links]]
+label = "Submit"
+href = "/submit"
+
+[[header.navbar.links]]
+label = "Advertise"
+href = "/advertise"
+
 
 [footer]
 description = "Helping foreign residents in Japan find the right professional support."

@@ -6,7 +6,7 @@ emoji = false
 pageHeader = 'title' # none, title
 
 [directoryUI.search]
-placeholder = "Search among {0} agent frameworks"
+placeholder = "Search among {0} professionals in Japan"
 showCount = true
 icon = "tabler:bow"
 
