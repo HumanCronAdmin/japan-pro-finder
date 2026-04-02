@@ -16,9 +16,55 @@ const description = frontmatter?.description;
 const linkText = link?.replace(/^https?:\/\//, "");
 const pageHeader = themeConfig.listings.pageHeader;
 const sidebar = config.layout.sidebar;
+
+const tagToType: Record<string, string> = {
+  "lawyer": "Attorney",
+  "divorce": "Attorney",
+  "labor": "Attorney",
+  "corporate": "Attorney",
+  "immigration": "Attorney",
+  "general": "Attorney",
+  "doctor": "Physician",
+  "tax-accountant": "AccountingService",
+  "financial-advisor": "FinancialService",
+  "real-estate": "RealEstateAgent",
+};
+const tags = frontmatter?.tags || [];
+const schemaType = tags.map((t: string) => tagToType[t]).find((t: string) => t) || "ProfessionalService";
+
+const jsonLd: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": schemaType,
+  "name": title,
+  "description": description,
+  "url": `https://japanprofinder.com/${slug}/`,
+};
+if (link) jsonLd.sameAs = link;
+if (frontmatter?.phone) jsonLd.telephone = frontmatter.phone;
+if (frontmatter?.email) jsonLd.email = frontmatter.email;
+if (frontmatter?.address) {
+  jsonLd.address = {
+    "@type": "PostalAddress",
+    "addressLocality": frontmatter.address,
+    "addressCountry": "JP"
+  };
+}
+if (frontmatter?.hours) jsonLd.openingHours = frontmatter.hours;
+if (frontmatter?.languages) jsonLd.knowsLanguage = frontmatter.languages;
+if (frontmatter?.google_rating && frontmatter?.google_reviews) {
+  jsonLd.aggregateRating = {
+    "@type": "AggregateRating",
+    "ratingValue": frontmatter.google_rating,
+    "reviewCount": frontmatter.google_reviews,
+    "bestRating": 5,
+    "worstRating": 1
+  };
+}
+if (frontmatter?.founded) jsonLd.foundingDate = frontmatter.founded;
 ---
 
 <BaseLayout title={title} description={description} slug={slug}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   {
     sidebar ? (
       <SidebarShell showSidebar={false}>
