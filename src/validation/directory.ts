@@ -15,4 +15,10 @@ export const directorySchema = (imageSchema: z.ZodTypeAny) =>
     languages: z.array(z.string()).optional(),
     specialties: z.array(z.string()).optional(),
     hours: z.string().optional(),
+    representative: z.string().optional(),
+    founded: z.string().optional(),
+    credentials: z.array(z.string()).optional(),
+    google_rating: z.number().optional(),
+    google_reviews: z.number().optional(),
+    highlights: z.array(z.string()).optional(),
   });
