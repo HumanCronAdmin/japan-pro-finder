@@ -9,4 +9,10 @@ export const directorySchema = (imageSchema: z.ZodTypeAny) =>
     image: imageSchema.optional(),
     link: z.string().url().optional(),
     featured: z.boolean().default(false),
+    phone: z.string().optional(),
+    email: z.string().optional(),
+    address: z.string().optional(),
+    languages: z.array(z.string()).optional(),
+    specialties: z.array(z.string()).optional(),
+    hours: z.string().optional(),
   });

@@ -30,6 +30,12 @@ const sidebar = config.layout.sidebar;
               link={link}
               linkText={linkText}
               image={frontmatter.image}
+              phone={frontmatter.phone}
+              email={frontmatter.email}
+              address={frontmatter.address}
+              languages={frontmatter.languages}
+              specialties={frontmatter.specialties}
+              hours={frontmatter.hours}
             />
           )}
           <AppProse>
@@ -41,23 +47,19 @@ const sidebar = config.layout.sidebar;
       <AppShell>
         <div class="max-w-2xl w-full mx-auto py-20">
           {pageHeader == "title" && (
-            <div class="mb-10">
-              <div class="flex justify-between items-center">
-                <h1 class="font-bold text-4xl text-gray-900 dark:text-gray-50">
-                  {title}
-                </h1>
-                {link && (
-                  <a
-                    class="inline-flex items-center gap-1 font-medium text-gray-800 dark:text-gray-100"
-                    href={link}
-                  >
-                    {linkText}
-                    <Icon name="tabler:arrow-up-right" />
-                  </a>
-                )}
-              </div>
-              <p class="text-gray-400 mt-2.5">{description}</p>
-            </div>
+            <TitleHeader
+              title={title}
+              description={description}
+              link={link}
+              linkText={linkText}
+              image={frontmatter.image}
+              phone={frontmatter.phone}
+              email={frontmatter.email}
+              address={frontmatter.address}
+              languages={frontmatter.languages}
+              specialties={frontmatter.specialties}
+              hours={frontmatter.hours}
+            />
           )}
           <AppProse>
             <slot />

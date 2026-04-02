@@ -2,7 +2,7 @@
 import { Icon } from "astro-icon/components";
 import Image from "astro/components/Image.astro";
 
-const { title, link, linkText, description, image } = Astro.props;
+const { title, link, linkText, description, image, phone, email, address, languages, specialties, hours } = Astro.props;
 ---
 
 <div class="mb-10">
@@ -26,4 +26,53 @@ const { title, link, linkText, description, image } = Astro.props;
     }
   </div>
   <p class="text-gray-400 mt-2.5">{description}</p>
+
+  {(phone || email || address || languages || specialties || hours) && (
+    <div class="mt-6 rounded-lg border border-gray-200 dark:border-gray-700 p-4 space-y-3 text-sm">
+      {address && (
+        <div class="flex items-start gap-2">
+          <Icon name="tabler:map-pin" class="w-4 h-4 mt-0.5 text-gray-400 shrink-0" />
+          <span class="text-gray-600 dark:text-gray-300">{address}</span>
+        </div>
+      )}
+      {phone && (
+        <div class="flex items-center gap-2">
+          <Icon name="tabler:phone" class="w-4 h-4 text-gray-400 shrink-0" />
+          <a href={`tel:${phone}`} class="text-gray-600 dark:text-gray-300 hover:text-blue-600">{phone}</a>
+        </div>
+      )}
+      {email && (
+        <div class="flex items-center gap-2">
+          <Icon name="tabler:mail" class="w-4 h-4 text-gray-400 shrink-0" />
+          <a href={`mailto:${email}`} class="text-gray-600 dark:text-gray-300 hover:text-blue-600">{email}</a>
+        </div>
+      )}
+      {hours && (
+        <div class="flex items-center gap-2">
+          <Icon name="tabler:clock" class="w-4 h-4 text-gray-400 shrink-0" />
+          <span class="text-gray-600 dark:text-gray-300">{hours}</span>
+        </div>
+      )}
+      {languages && languages.length > 0 && (
+        <div class="flex items-start gap-2">
+          <Icon name="tabler:language" class="w-4 h-4 mt-0.5 text-gray-400 shrink-0" />
+          <div class="flex flex-wrap gap-1.5">
+            {languages.map((lang: string) => (
+              <span class="px-2 py-0.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs font-medium">{lang}</span>
+            ))}
+          </div>
+        </div>
+      )}
+      {specialties && specialties.length > 0 && (
+        <div class="flex items-start gap-2">
+          <Icon name="tabler:certificate" class="w-4 h-4 mt-0.5 text-gray-400 shrink-0" />
+          <div class="flex flex-wrap gap-1.5">
+            {specialties.map((spec: string) => (
+              <span class="px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs font-medium">{spec}</span>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  )}
 </div>
